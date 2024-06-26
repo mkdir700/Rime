@@ -1,0 +1,36 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Apr 30 08:46:04 2024"
+  rime_version: 1.8.5
+patch:
+  "ascii_composer/good_old_caps_lock": true
+  "ascii_composer/switch_key":
+    Caps_Lock: noop
+    Control_L: commit_code
+    Control_R: noop
+    Shift_L: noop
+    Shift_R: noop
+  "key_binder/bindings":
+    - {accept: Tab, send: "Shift+Right", when: composing}
+    # - {accept: "Control+p", send: Page_Up, when: paging}
+    # - {accept: "Control+n", send: Page_Down, when: has_menu}
+    - {accept: minus, send: Page_Up, when: paging}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: comma, send: Page_Up, when: paging}
+    - {accept: period, send: Page_Down, when: has_menu}
+    - {accept: bracketleft, send: Page_Up, when: paging}
+    - {accept: bracketright, send: Page_Down, when: has_menu}
+    - {accept: "Control+Shift+4", toggle: simplification, when: always}
+  "menu/page_size": 9
+  schema_list:
+    - {schema: double_pinyin_flypy}
+  switcher:
+    abbreviate_options: true
+    caption: "〔方案选择〕"
+    fold_options: true
+    hotkeys:
+      # - "Control+grave"
+      # - "Control+Shift+grave"
+      - F4
