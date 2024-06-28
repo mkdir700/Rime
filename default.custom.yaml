@@ -13,18 +13,17 @@ patch:
     Shift_L: noop
     Shift_R: noop
   "key_binder/bindings":
-    - {accept: Tab, send: "Shift+Right", when: composing}
-    - {accept: minus, send: Page_Up, when: paging}
-    - {accept: equal, send: Page_Down, when: has_menu}
-    - {accept: comma, send: Page_Up, when: paging}
-    - {accept: period, send: Page_Down, when: has_menu}
-    - {accept: bracketleft, send: Page_Up, when: paging}
-    - {accept: bracketright, send: Page_Down, when: has_menu}
-    - {accept: "Control+Shift+4", toggle: simplification, when: always}
+    - { accept: Tab, send: "Shift+Right", when: composing }
+    - { accept: minus, send: Page_Up, when: paging }
+    - { accept: equal, send: Page_Down, when: has_menu }
+    - { accept: comma, send: Page_Up, when: paging }
+    - { accept: period, send: Page_Down, when: has_menu }
+    - { accept: bracketleft, send: Page_Up, when: paging }
+    - { accept: bracketright, send: Page_Down, when: has_menu }
+    - { accept: "Control+Shift+4", toggle: simplification, when: always }
   "menu/page_size": 9
   schema_list:
-    - {schema: double_pinyin_flypy}
-    - {schema: flypy}
+    - { schema: double_pinyin_flypy }
   switcher:
     abbreviate_options: true
     caption: "〔方案选择〕"

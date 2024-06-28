@@ -1,13 +1,13 @@
 __build_info:
-  rime_version: 1.9.0
+  rime_version: 1.11.2
   timestamps:
-    default: 1694324142
-    default.custom: 1719391850
+    default: 1717774589
+    default.custom: 1719585572
     flypy.custom: 0
-    flypy.schema: 1673580653
-    key_bindings: 1682503726
+    flypy.schema: 1719585572
+    key_bindings: 1717774589
     key_bindings.custom: 0
-    punctuation: 1682503728
+    punctuation: 1717774589
     punctuation.custom: 0
 custom_phraseQMZ:
   db_class: stabledb
@@ -97,7 +97,7 @@ key_binder:
     - {accept: "Control+j", toggle: simplification, when: always}
   import_preset: default
 menu:
-  page_size: 5
+  page_size: 7
 punctuator:
   full_shape:
     " ": {commit: "　"}
