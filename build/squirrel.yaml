@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.11.2
   timestamps:
     squirrel: 1717774589
-    squirrel.custom: 1719588466
+    squirrel.custom: 1719927583
 app_options:
   com.apple.Spotlight:
     ascii_mode: true
@@ -11,6 +11,9 @@ app_options:
   com.apple.dt.Xcode:
     ascii_mode: true
   com.googlecode.iterm2:
+    no_inline: true
+    vim_mode: true
+  com.neovide.neovide:
     no_inline: true
     vim_mode: true
   com.jetbrains.intellij:
@@ -29,6 +32,10 @@ app_options:
     ascii_mode: true
   com.xunyong.hapigo:
     ascii_mode: true
+  md.obsidian:
+    vim_mode: true
+  net.kovidgoyal.kitty:
+    vim_mode: true
 chord_duration: 0.1
 config_version: 1.0
 keyboard_layout: last
